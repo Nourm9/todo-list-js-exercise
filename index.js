@@ -18,7 +18,7 @@ function newTask(title, description) {
       this.complete = true;
     },
   };
-  return task;
+  return task
 }
 
 const task1 = newTask(
